@@ -21,6 +21,7 @@ public class Base {
 
 		if (browser.equalsIgnoreCase("Chrome")) {
 			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--headless=new");
 			driver.set(new ChromeDriver(options));
 
 		} else if (browser.equalsIgnoreCase("FIREFOX")) {
