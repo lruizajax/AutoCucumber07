@@ -22,8 +22,6 @@ public class LoginSteps extends Base {
 
 	@Cuando("el usario ingresa sus credencuales")
 	public void el_usario_ingresa_sus_credencuales() {
-		// loginPage.setEmail(fake.internet().emailAddress());
-		// loginPage.setPassword(fake.internet().password());
 		loginPage.setEmail("lruiz@gmail.com");
 		loginPage.setPassword("password");
 	}
